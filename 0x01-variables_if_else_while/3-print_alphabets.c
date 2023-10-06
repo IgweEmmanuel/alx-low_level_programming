@@ -1,4 +1,3 @@
-#include <ctype.h>
 #include <stdio.h>
 
 /**
@@ -9,14 +8,12 @@
 int main(void)
 {
 	char c;
-	char l;
 	char u;
 
-	c = 'M';
-	l = tolower(c);
-	u = toupper(c);
-	putchar(l);
-	putchar(u);
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+		u = toupper(c);
+		putchar(u);
 	putchar('\n');
 	return (0);
 }
