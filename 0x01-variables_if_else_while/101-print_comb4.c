@@ -7,18 +7,22 @@
  */
 int main(void)
 {
-	int i, b;
+	int i, b, c;
 
-	for (i = 0; i <= 8; i++)
+	for (i = 0; i <= 7; i++)
 	{
-		for (b = i + 1; b <= 9; b++)
+		for (b = i + 1; b <= 8; b++)
 		{
-			putchar((i % 10) + '0');
-			putchar((b % 10) + '0');
-			if (i == 8 && b == 9)
-				continue;
-			putchar(',');
-			putchar(' ');
+			for ((c = b + 1; c <= 9; c++)
+			{
+				putchar((i % 10) + '0');
+				putchar((b % 10) + '0');
+				puthcar((c % 10) + '0');
+				if (i == 7 && b == 8 && c ==9)
+					continue;
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
