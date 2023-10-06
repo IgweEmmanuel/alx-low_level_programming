@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char c = tolower('M');
+	char c = tolower('A-Z');
 
 	putchar(c);
 	putchar('\n');
