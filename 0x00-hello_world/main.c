@@ -1,7 +1,8 @@
 #include <stdio.h>
-/*
- * main is entry point
- * returns 0
+/**
+ * main - This is an entry point
+ *
+ * Return: 0 
  */
 
 int main(void)
