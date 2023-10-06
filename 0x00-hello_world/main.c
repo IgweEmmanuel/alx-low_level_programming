@@ -1,11 +1,11 @@
 #include <stdio.h>
+
 /**
- * main - This is an entry point
+ * main - Entry point
  *
- * Return: 0 if the hello_world is true 
+ * Return: Always 0 (Success) 
  */
 int main(void)
 {
-	printf("%s\n", "Hello World");
-	return (0);
+  return (0);
 }
