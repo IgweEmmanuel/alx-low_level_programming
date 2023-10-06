@@ -13,11 +13,11 @@ int main(void)
 	{
 		for (b = i + 1; b <= 8; b++)
 		{
-			for ((c = b + 1; c <= 9; c++)
+			for (c = b + 1; c <= 9; c++)
 			{
 				putchar((i % 10) + '0');
 				putchar((b % 10) + '0');
-				puthcar((c % 10) + '0');
+				putchar((c % 10) + '0');
 				if (i == 7 && b == 8 && c ==9)
 					continue;
 				putchar(',');
