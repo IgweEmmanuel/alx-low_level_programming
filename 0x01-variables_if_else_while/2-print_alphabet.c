@@ -11,5 +11,6 @@ int main(void)
 	char c = tolower('M');
 
 	putchar(c);
+	putchar('\n');
 	return (0);
 }
