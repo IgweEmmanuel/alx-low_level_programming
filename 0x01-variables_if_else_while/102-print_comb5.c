@@ -17,9 +17,10 @@ int main(void)
 			putchar((b % 10) + '0');
 			if (i == 8 && b == 9)
 				continue;
-			putchar(',');
 			putchar(' ');
 		}
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
