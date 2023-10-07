@@ -9,16 +9,16 @@ int main(void)
 {
 	int i, b;
 
-	for (i = 0; i <= 98; i++)
+	for (i = 0; i <= 8; i++)
 	{
-		for (b = i + 1; b <= 99; b++)
+		for (b = i + 1; b <= 9; b++)
 		{
 			putchar(i);
 			putchar((i % 10) + '0');
 			putchar(' ');
 			putchar(i);
 			putchar((b % 10) + '0');
-			if (i == 98 && b == 99)
+			if (i == 8 && b == 9)
 				continue;
 			putchar(',');
 			putchar(' ');
