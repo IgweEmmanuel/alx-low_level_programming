@@ -13,10 +13,10 @@ int main(void)
 	{
 		for (b = i + 1; b <= 9; b++)
 		{
-			putchar('0');
+			putchar(i + '0');
 			putchar((i % 10) + '0');
 			putchar(' ');
-			putchar('0');
+			putchar(i + '0');
 			putchar((b % 10) + '0');
 			if (i == 8 && b == 9)
 				continue;
