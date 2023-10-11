@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- * 100-times_tea: Designs the multiplication table.
+ * print_times_table - Designs the multiplication table.
+ * @n: This is the input value with int datatype
  *
+ (* Return: This returns void)?
  */
 void print_times_table(int n)
 {
@@ -12,7 +14,7 @@ void print_times_table(int n)
 		for (b = n; b <= 15; b++)
 		{
 			c = b * i;
-			if (b < 10 && b != 10)
+			if (b <= 9)
 			{
 				_putchar(c);
 				_putchar(',');
@@ -20,7 +22,7 @@ void print_times_table(int n)
 				_putchar('.');
 				_putchar('.');
 			}
-			if (b < 100 && b != 100)
+			if (b <= 99)
 			{
 				_putchar(c);
 				_putchar(',');
