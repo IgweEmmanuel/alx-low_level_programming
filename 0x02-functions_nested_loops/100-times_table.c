@@ -23,22 +23,22 @@ void print_times_table(int n)
 				{
 					_putchar(c);
 					_putchar(',');
-					_putchar('.');
-					_putchar('.');
-					_putchar('.');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(' ');
 				}
 				if (b <= 99)
 				{
 					_putchar(c);
 					_putchar(',');
-					_putchar('.');
-					_putchar('.');
+					_putchar(' ');
+					_putchar(' ');
 				}
 				if (b >= 100)
 				{
 					_putchar(c);
 					_putchar(',');
-					_putchar('.');
+					_putchar(' ');
 				}
 			}
 		}
