@@ -14,9 +14,9 @@ void print_times_table(int n)
 
 	else
 	{
-		for (i = 0; i <= n; i++)
+		for (i = 0; i < n; i++)
 		{
-			for (b = 0; b <= n; b++)
+			for (b = 0; b < n; b++)
 			{
 				c = b * i;
 				if (b <= 9)
