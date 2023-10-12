@@ -4,6 +4,10 @@
  */
 #include "main.h"
 #include <stdio.h>
+/**
+ * positive_or_negative - function checks for positive or negative
+ * @i: it checks for the number
+ */
 void positive_or_negative(int i)
 {
 	if (i < 0)
