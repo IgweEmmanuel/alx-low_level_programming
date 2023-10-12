@@ -2,7 +2,6 @@
  * File: 0-main that returns the value of i
  * Auth: Emmanuel
  */
-#include <stdio.h>
 #include "main.h"
 
 /**
