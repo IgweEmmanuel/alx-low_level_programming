@@ -6,7 +6,7 @@
 #include "main.h"
 /**
  * positive_or_negative - This checks wether the input is a positive or negative value
- * @n: This is used for holding the input
+ * @c: This is used for holding the input
  */
 void positive_or_negative(int c)
 {
