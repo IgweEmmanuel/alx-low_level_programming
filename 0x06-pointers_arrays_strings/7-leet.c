@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * leet - It changes letters to words
+ * leet - It changesL letters to words
  * @str : char variable
  * Return: Always 0.
  */
 char *leet(char *str)
 {
 	int a, b;
-	char *alpha = "ollhoELLHO";
-	char *integer = "5706157061";
+	char *alpha = "aeotlAEOTL";
+	char *integer = "4307143071";
 
 	for (a = 0; str[a] != '\0'; a++)
 	{
