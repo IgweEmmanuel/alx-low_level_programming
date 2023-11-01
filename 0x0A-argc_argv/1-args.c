@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - This prints the argument names in the compiler
  * @argc: argument 1
@@ -9,8 +9,7 @@
  */
 int main(int argc, char __attribute__ ((unused)) *argv[])
 {
-
-	printf("%d\n", argc);
-
+	printf("%d", argc);
+	printf("\n");
 	return (0);
 }
