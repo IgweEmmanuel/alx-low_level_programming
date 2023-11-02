@@ -7,9 +7,9 @@
  *
  * Return: outputs ints
  */
-int main(int argc, char __attribute__ ((unused)) *argv[])
+int main(int argc, char *argv[] __attribute__ ((unused)))
 {
-	printf("%d", argc);
+	printf("%d", argc - 1);
 	printf("\n");
 	return (0);
 }
