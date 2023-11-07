@@ -1,4 +1,4 @@
 #!/bin/bash
-# Create static library bash script
 gcc -c *.c
-ar -rc liballa.a *.o
+ar rc liball.a *.o
+ranlib liballa.a
