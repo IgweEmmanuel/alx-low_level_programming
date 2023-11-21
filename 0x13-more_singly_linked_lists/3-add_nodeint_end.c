@@ -3,6 +3,7 @@
 /**
  * *add_nodeint_end - Prints lists node
  * @n: a head pointing to the next node
+ * @head: This is the entry point to the node
  *
  * Return: returns size_t
  */
@@ -12,15 +13,15 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	listint_t *newNode;
 	listint_t *temp;
 	int count;
-	
+
 	newNode = (listint_t *) malloc(sizeof(listint_t));
-	
+
 	if (newNode == NULL)
 	{
 		return (NULL);
 	}
 	newNode->n = n;
-	
+
 	if (*head == NULL)
 	{
 		newNode->next = NULL;
@@ -33,6 +34,6 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	{
 		temp = temp->next;
 	}
-	temp->next = newNode;;
+	temp->next = newNode;
 	return (*head);
 }
