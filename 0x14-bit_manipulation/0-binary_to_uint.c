@@ -1,26 +1,26 @@
 #include "main.h"
 
 /**
- * binary_to_uint - This function prints only binary numbers
- * @b: This is the parameter for the binary values
+ * binary_to_uint - convert binary string to decimal
+ * @b: binary string
  *
- * Return: This returns unsigned int
+ * Return: decimal (unsigned int)
  */
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int dec;
+	unsigned int decimal;
 	unsigned int i;
 
-	for (dec = 0, i = 0; b[i] != '\0'; i++)
+	for (decimal = 0, i = 0; b[i] != '\0'; i++)
 	{
 		if (b[i] == '1')
-			dec = (dec << 1) | 1;
+			decimal = (decimal << 1) | 1;
 		else if (b[i] == '0')
-			dec <<= 1;
+			decimal <<= 1;
 		else if (b[i] != '0' && b[i] != '1')
 			return (0);
 	}
 
-	return (dec);
+	return (decimal);
 }
