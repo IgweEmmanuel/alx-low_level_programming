@@ -8,7 +8,7 @@
  * @size: This is the size of the array elements
  * @value: This is the value of the elements
  *
- * Return: Always EXIT SUCCESS	
+ * Return: Always EXIT SUCCESS
  */
 int linear_search(int *array, size_t size, int value)
 {
@@ -17,11 +17,12 @@ int linear_search(int *array, size_t size, int value)
 	if (array == NULL)
 		return (-1);
 
-	for (i = 0; i < size; i++){
+	for (i = 0; i < size; i++)
+	{
 		if (array[i] == value)
-			return (int)i;
+			return ((int)i);
 		printf("Value checked array[%ld] = [%d]\n", i, array[i]);
 	}
-	return (1);
+	return (-1);
 }
 
