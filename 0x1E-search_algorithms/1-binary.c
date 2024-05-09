@@ -29,7 +29,7 @@ int binary_search(int *array, size_t size, int value)
 
 		for (i = low; (int)i <= high; i++)
 		{
-			printf("%d", (int)i);
+			printf("%d", array[(int)i]);
 			if ((int)i < high)
 				printf(", ");
 		}
