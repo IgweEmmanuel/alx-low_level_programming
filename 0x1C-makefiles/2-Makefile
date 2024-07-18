@@ -1,31 +1,11 @@
 # compiling object generated files
 
-#CC = gcc
-#SRC = main.c school.c
-#OBJ = ${SRC:%.c=%.o}
+CC = gcc
+SRC = main.c school.c
+OBJ = ${SRC:%.c=%.o}
 
-#NAME = school
+NAME = school
 
-#all: ${SRC}
-#	${CC} ${OBJ} -o ${NAME}
+all: ${OBJ}
+	${CC} ${OBJ} -o ${NAME}
 #
-
-# Variables
- CC = gcc
- SRC = $(wildcard *.c)
- OBJ = $(SRC:.c=.o)
- NAME = school
-
-# Default rule
- all: $(NAME)
-
-# Link the object files to create the executable
- $(NAME): $(OBJ)
- 	$(CC) -o $@ $^
-
- 	# Compile source files into object files
- 	%.o: %.c
- 		$(CC) -c $< -o $@
-#
-
-
